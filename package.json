@@ -1,0 +1,31 @@
+{
+  "name": "@lpenser/git-clone",
+  "version": "0.0.4",
+  "description": "",
+  "main": "./src/git-clone.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lpenser/git-clone.git"
+  },
+  "keywords": [
+    "git",
+    "clone"
+  ],
+  "author": "lpenser",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lpenser/git-clone/issues"
+  },
+  "homepage": "https://github.com/Lpenser/git-clone#readme",
+  "devDependencies": {
+    "@types/node": "^10.12.9"
+  },
+  "dependencies": {
+    "download": "^7.1.0",
+    "git-clone": "^0.1.0",
+    "rimraf": "^2.6.2"
+  }
+}
